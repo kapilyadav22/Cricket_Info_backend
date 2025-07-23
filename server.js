@@ -18,7 +18,7 @@ const port = process.env.PORT || 4000;
 
 
 app.get('/', (req, res) => {
-    res.json({ "test": "Welcome to Zwigato!" });
+    res.json({ "test": "Welcome to CricInfo!" });
 });
 
 const key = fs.readFileSync(process.env.SSL_KEY_PATH);
