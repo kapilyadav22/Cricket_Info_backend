@@ -1,0 +1,59 @@
+ const YEARS_WISE_META_OBJECT = {
+  "2025": 203,
+  "2024": 148,
+  "2023": 107,
+  "2022": 60,
+  "2021": 10013,
+  "2020": 10012,
+  "2019": 10011,
+  "2018": 10010,
+  "2017": 10009,
+  "2016": 10008,
+  "2015": 10007,
+  "2014": 10006,
+  "2013": 10005,
+  "2012": 10004,
+  "2011": 10003,
+  "2010": 10002,
+  "2009": 10001,
+  "2008": 10000
+};
+
+
+//Base url of iplt20.com
+ const BASE_URL = "https://ipl-stats-sports-mechanic.s3.ap-south-1.amazonaws.com/ipl/";
+
+ const POINTS_TABLE =  BASE_URL + "feeds/stats/";
+ const POINTS_TABLE_SUFFIX = "-groupstandings.js?"
+
+ const  MATCHSCHEDULE= BASE_URL+ "feeds/";
+ const MATCHSCHEDULE_SUFFIX = "-matchschedule.js";
+
+ const BASE_IMAGE_URL = BASE_URL + "teamlogos/";
+
+ const kkr  = BASE_IMAGE_URL + "KKR.png";
+ const rcb = BASE_IMAGE_URL + "RCB.png";
+ const mi = BASE_IMAGE_URL + "MI.png";
+ const kxip = BASE_IMAGE_URL + "PBKS.png";
+ const rr = BASE_IMAGE_URL + "RR.png";
+ const dc = BASE_IMAGE_URL + "DC.png";
+ const csk = BASE_IMAGE_URL + "CSK.png";
+ const srh = BASE_IMAGE_URL + "SRH.png";
+ const gt = BASE_IMAGE_URL + "GT.png";
+ const LSG = BASE_IMAGE_URL + "LSG.png";
+
+
+
+module.exports = {
+  YEARS_WISE_META_OBJECT,
+  BASE_URL,
+  POINTS_TABLE,
+  POINTS_TABLE_SUFFIX,
+  MATCHSCHEDULE,    
+  MATCHSCHEDULE_SUFFIX
+}
+
+
+
+
+
